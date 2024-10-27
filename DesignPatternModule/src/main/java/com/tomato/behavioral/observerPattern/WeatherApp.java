@@ -10,7 +10,6 @@ public class WeatherApp {
         WeatherObserver weatherObserver2 = new WeatherObserver();
         weather.addObserver(weatherObserver1);
         weather.addObserver(weatherObserver2);
-
         Scanner scanner = new Scanner(System.in);
         boolean running = true;
 
